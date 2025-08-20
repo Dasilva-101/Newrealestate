@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Newrealestate/static/css/main.c5eacc26.css",
+    "main.js": "/Newrealestate/static/js/main.5ffd868e.js",
+    "static/js/453.e867ed8f.chunk.js": "/Newrealestate/static/js/453.e867ed8f.chunk.js",
+    "static/media/newhouse2.jpg": "/Newrealestate/static/media/newhouse2.2d0df5914c2e5e77468b.jpg",
+    "index.html": "/Newrealestate/index.html",
+    "static/media/PropertyResultsTwo": "/Newrealestate/static/media/PropertyResultsTwo.31d6cfe0d16ae931b73c",
+    "main.c5eacc26.css.map": "/Newrealestate/static/css/main.c5eacc26.css.map",
+    "main.5ffd868e.js.map": "/Newrealestate/static/js/main.5ffd868e.js.map",
+    "453.e867ed8f.chunk.js.map": "/Newrealestate/static/js/453.e867ed8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5eacc26.css",
+    "static/js/main.5ffd868e.js"
+  ]
+}
