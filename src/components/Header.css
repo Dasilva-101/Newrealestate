@@ -1,0 +1,191 @@
+@keyframes fadeSlideUp{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-hero{
+    animation: fadeSlideUp 2.5s ease-out forwards;
+    color: #002B5B;
+}
+.animate-search{
+    animation:fadeSlideUp 6s ease-out forwards ;
+}
+.animate-services{
+     animation: fadeSlideUp 2.5s ease-out forwards;
+     opacity: 0;
+     animation-delay: 5s;
+}
+.animate-core{
+     animation: fadeSlideUp 2.5s ease-out forwards;
+     opacity: 0;
+     animation-delay: 6s;
+}
+
+
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+       transform:translateX(0) ;
+       opacity:1;
+    }
+}
+
+.btn{
+    background-color: #097899;
+}
+html {
+    scroll-behavior: smooth;
+}
+.animate-card{
+    animation: slideInLeft 5s ease-out forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+.custom-bg{
+    background-color: rgb(228, 171, 171);
+}
+.collapse{
+    text-decoration: none;
+}
+.nav-item.mx-3.mb-2{
+    text-decoration: none;
+    color: #43e68c !important;
+}
+
+.hero-section{
+    background-image: url('/public/images/newhouse2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    transition: background-image 1s ease-in-out;
+}
+/* .hero-section .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 1;
+} */
+
+.text-center{
+    color: rgba(251, 249, 255, 0.932);
+    font-size: 50px;
+    font-family: 'Libertinus Sans',sans-serif;
+}
+
+.btn{
+    background-color: black;
+    color: aliceblue;
+    margin-top: 20px;
+}
+h1{
+    margin-top: 40px;
+}
+
+.card-img-top2{
+    height: 300px;
+    object-fit: cover;
+}
+
+.k{
+    height: 60vh;
+}
+.accordion-button{
+    color: black;
+    background-color: rgb(153, 145, 145);
+}
+.img-fluid{
+    height:auto;
+}
+
+.service-box {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-box:hover {
+  background-color: #6f42c1 !important; 
+  color: white;
+}
+
+.service-box:hover i {
+  color: white;
+}
+.fw-bold{
+    color: #070707d2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 1.5rem;
+}
+
+.about-hero{
+    background-image: url('/public/images/newhouse2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 40vh;
+}
+.display-4{
+    color: #097899;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+    margin-left: 90px;
+}
+
+.hero-properties {
+  height: 300px;
+  background-image: url('/public/images/newhouse2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-properties h2 {
+  font-size: 2.5rem;
+  z-index: 2;
+}
+.browse{
+    color: #097899;
+}
+.card{
+  background-color: #b0cad1;
+}
+
+.letstalk-section {
+  background-color: #b0cad1;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.letstalk-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: -1;
+}
+
+.card .carousel-inner{
+    height: 300px;
+    overflow: hidden;
+}
+
